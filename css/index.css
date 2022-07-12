@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 213, 0);
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 65px;
+    background-color: rgb(239, 199, 0);
+}
+
+header>a{
+    width: 10%;
+}
+
+header>a>img{
+    width: 130%;
+    transition-duration: 0.2s;
+}
+
+header>a>img:hover{
+    width: 140%;
+}
+
+.linkHeader{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px rgb(165, 138, 0);
+    width: 100%;
+    padding: 23px 25px;
+    transition-duration: 0.4s;
+}
+
+.linkHeader:hover{
+    background-color: rgb(205, 171, 0);
+}
