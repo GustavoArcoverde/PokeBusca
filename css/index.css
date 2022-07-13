@@ -5,7 +5,7 @@ body{
 
 
 /* HEADER */
-header{
+/* header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,7 @@ header>a>img:hover{
 
 .linkHeader:hover{
     background-color: rgb(205, 171, 0);
-}
+} */
 
 /* BODY */
 /* INTRODUCTION SECTION */
@@ -55,6 +55,7 @@ header>a>img:hover{
     width: 50%;
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 #welcomeSection>figure>img{
@@ -65,4 +66,31 @@ header>a>img:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* SECTION FORMS */
+
+#selectSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selectSection select{
+    width: 12%;
+    height: 30px;
+    border-radius: 2px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>') no-repeat right #fff;
+    -webkit-appearance: none;
+    padding: 0.2rem;
+    background-position: right 0.1rem center;
+}
+
+#selectSection select:focus{
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/></svg>') no-repeat right #fff;
+    background-position: right 0.1rem center;
+}
+
+#selectSection select option:hover{
+    background-color: 
 }
